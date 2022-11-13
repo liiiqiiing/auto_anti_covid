@@ -1,4 +1,4 @@
-name: 'GitHub Actions LZU Auto COVID Health Report'
+name: 'GitHub Actions LZU Auto COVID Health Report2'
 concurrency: report-${{ github.ref }}
 
 on:
