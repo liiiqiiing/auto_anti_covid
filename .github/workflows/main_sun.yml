@@ -42,8 +42,8 @@ jobs:
           run: sleep ${{ github.event.inputs.delays }}
         - name: 'Auto COVID Health Report'
           env:
-            CARDID: ${{ '320220932931' }}
-            PASSWORD: ${{ 'Sy123456' }}
+            CARDID: ${{ '320190916351' }}
+            PASSWORD: ${{ '547464lq.123' }}
             TZ: Asia/Shanghai
           run: |
             if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -z "${{ github.event.inputs.delays }}" ]; then 
